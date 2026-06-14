@@ -1,0 +1,37 @@
+# --- Entornos Virtuales ---
+venv/
+ENV/
+env/
+.venv/
+
+# --- Variables de Entorno (Credenciales y Secretos) ---
+.env
+.flaskenv
+*.env
+
+# --- Caché de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Base de Datos Local (Si usas SQLite para pruebas) ---
+*.sqlite3
+*.db
+
+# --- Migraciones (Opcional, leer nota abajo) ---
+# Si usas Flask-Migrate, es buena práctica subir las migraciones al repositorio,
+# pero NUNCA los archivos de caché o configuraciones locales dentro de esa carpeta.
+migrations/__pycache__/
+
+# --- IDEs y Editores de Código ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
